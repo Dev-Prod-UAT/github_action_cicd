@@ -22,6 +22,7 @@ jobs:
   terraform-plan:
     name: Terraform Plan
     runs-on: ubuntu-latest
+    environment: Preprod
     defaults:
       run:
         working-directory: environment/Preprod
@@ -58,6 +59,7 @@ jobs:
   terraform-apply:
     name: Terraform Apply
     runs-on: ubuntu-latest
+    environment: Preprod
     needs: terraform-plan
     if: github.event_name == 'push' && github.ref == 'refs/heads/main'
     defaults:
