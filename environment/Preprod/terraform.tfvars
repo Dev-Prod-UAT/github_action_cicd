@@ -7,7 +7,7 @@ rgs = {
     name     = "qa-rg"
     location = "west us"
   }
-   rg3 = {
+  rg3 = {
     name     = "prod-rg"
     location = "west us"
   }
