@@ -4,7 +4,7 @@ rgs = {
     location = "west us"
   }
   rg2 = {
-    name     = "qa-rg"
+    name     = "test-rg"
     location = "west us"
   }
    rg3 = {
